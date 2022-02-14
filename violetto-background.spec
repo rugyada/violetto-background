@@ -16,8 +16,8 @@ BuildArch:	noarch
 Violetto background
 
 %files
-%dir %{_datadir}/wallpapers/violetto-background/
-%{_datadir}/wallpapers/violetto-background/*
+%dir %{_datadir}/wallpapers/Violetto/
+%{_datadir}/wallpapers/Violetto/*
 
 #----------------------------------------------------------------------------
 
@@ -27,5 +27,5 @@ Violetto background
 %build
 
 %install
-mkdir -p %{buildroot}%{_datadir}/wallpapers/violetto-background
-cp * %{buildroot}%{_datadir}/wallpapers/violetto-background/
+mkdir -p %{buildroot}%{_datadir}/wallpapers/Violetto
+cp * %{buildroot}%{_datadir}/wallpapers/Violetto
