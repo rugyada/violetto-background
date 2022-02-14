@@ -4,7 +4,7 @@
 
 Summary:	Violetto theme background
 Name:		violetto-background
-Version:	1
+Version:	1.0
 Release:	1
 License:	GPL
 Group:		Graphics
