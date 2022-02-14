@@ -1,31 +1,30 @@
-%define oname violetto-background
+# Violetto theme background
+%define oname Violetto
+%define bdate   2022.02.14
 
-Summary:    Violetto background
-Name:   violetto-background
-Version:    1
-Release:    1
-License:    GPL
-Group:  Graphical desktop/KDE
-Url:    https://github.com/rugyada/violetto-background
-Source0:    %{oname}.tar.gz
+Summary:	Violetto theme background
+Name:		violetto-background
+Version:	1
+Release:	1
+License:	GPL
+Group:		Graphics
+Url:		https://github.com/rugyada/violetto-background
+Source0:	%{oname}.tar.gz
 
-BuildRequires:	extra-cmake-modules
 BuildArch:	noarch
 
 %description
-Violetto background
+Violetto theme background
 
 %files
-%dir %{_datadir}/wallpapers/violetto-background/
-%{_datadir}/wallpapers/violetto-background/*
-
-#----------------------------------------------------------------------------
+/usr/share/wallpapers/Violetto
 
 %prep
-%setup -qn %{oname}
+%setup -qn %{oname}-%{version}
 
 %build
 
+
 %install
-mkdir -p %{buildroot}%{_datadir}/wallpapers/violetto-background
-cp * %{buildroot}%{_datadir}/wallpapers/violetto-background/
+mkdir -p %{buildroot}/usr/share/wallpapers/Violetto
+cp -rf * %{buildroot}/usr/share/wallpapers/Violetto/
