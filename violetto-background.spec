@@ -1,4 +1,4 @@
-%define oname violetto-background
+%define oname Violetto
 
 Summary:    Violetto background
 Name:   violetto-background
