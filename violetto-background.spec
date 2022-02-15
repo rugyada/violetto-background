@@ -17,7 +17,7 @@ BuildArch:	noarch
 Violetto theme background
 
 %files
-%{_datadir}/wallpapers/Violetto/
+%{_datadir}/wallpapers/Violetto/*
 
 %prep
 
