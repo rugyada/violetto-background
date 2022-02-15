@@ -20,11 +20,9 @@ Violetto theme background
 /usr/share/wallpapers/Violetto
 
 %prep
-%setup -qn %{oname}-%{version}
 
 %build
 
-
 %install
-mkdir -p %{buildroot}/usr/share/wallpapers/Violetto
-cp -rf * %{buildroot}/usr/share/wallpapers/Violetto/
+mkdir -p %{buildroot}%{_datadir}/wallpapers/Violetto
+cp -rf * %{buildroot}%{_datadir}/wallpapers/Violetto/
