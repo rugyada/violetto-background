@@ -9,7 +9,7 @@ Release:	1
 License:	GPL
 Group:		Graphics
 Url:		https://github.com/rugyada/violetto-background
-Source0:	%{oname}.tar.gz
+Source0:	%{oname}-%{version}.tar.gz
 
 BuildArch:	noarch
 
@@ -20,7 +20,7 @@ Violetto theme background
 /usr/share/wallpapers/Violetto
 
 %prep
-%setup -qn %{oname}
+%setup -qn %{oname}-%{version}
 
 %build
 
