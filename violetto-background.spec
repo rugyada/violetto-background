@@ -20,7 +20,6 @@ Violetto theme background
 %{_datadir}/wallpapers/Violetto
 
 %prep
-find . -type f | xargs chmod 0644
 
 %build
 
