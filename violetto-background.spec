@@ -25,5 +25,4 @@ Violetto theme background
 
 %install
 # mkdir -p %{buildroot}%{_datadir}/wallpapers/Violetto
-install -d -m 0755 %{buildroot}/%{_datadir}/wallpapers/Violetto/
-cp -a Violetto*.png %{buildroot}/%{_datadir}/wallpapers/Violetto/
+install -d -m 0755 %{buildroot}/%{_datadir}/wallpapers/Violetto/Violetto*.png
