@@ -20,7 +20,7 @@ Violetto theme background
 /usr/share/wallpapers/Violetto
 
 %prep
-%setup -qn %{oname}-%{version}
+%setup -qn %{oname}
 
 %build
 
