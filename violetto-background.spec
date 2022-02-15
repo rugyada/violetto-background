@@ -9,7 +9,7 @@ Release:	2
 License:	GPL
 Group:		Graphics
 Url:		https://github.com/rugyada/violetto-background
-Source0:	%{oname}-%{version}.tar.gz
+Source0:	%{oname}.tar.gz
 
 BuildArch:	noarch
 
