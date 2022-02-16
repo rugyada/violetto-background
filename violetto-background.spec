@@ -5,24 +5,26 @@
 Summary:	Violetto theme background
 Name:		violetto-background
 Version:	1.0
-Release:	4
+Release:	5
 License:	GPL
 Group:		Graphics
 Url:		https://github.com/rugyada/violetto-background
 Source0:	%{oname}.tar.gz
-
 BuildArch:	noarch
 
 %description
 Violetto theme background
 
 %files
-%{_datadir}/wallpapers/Violetto
+%dir %{_datadir}/wallpapers/Violetto/
+%{_datadir}/wallpapers/Violetto/*
 
 %prep
+%setup -qn %{oname}
 
 %build
 
 %install
 mkdir -p %{buildroot}%{_datadir}/wallpapers/Violetto
-install -d -m 0755 %{buildroot}/%{_datadir}/wallpapers/Violetto
+cp * %{buildroot}%{_datadir}/wallpapers/Violetto/
+
